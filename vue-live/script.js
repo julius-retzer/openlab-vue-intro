@@ -2,7 +2,7 @@ var app = new Vue({
   el: "#app",
   data: {
     newTodo: "",
-    todos: ["Bananas", "Apples", "Avocados", "Oats"]
+    todos: ["Bananas", "Apples", "Avocados", "Oats", "Kiwi"]
   },
   methods: {
     addTodo() {
