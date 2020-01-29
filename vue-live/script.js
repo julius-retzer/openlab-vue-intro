@@ -6,6 +6,9 @@ var app = new Vue({
   },
   methods: {
     addTodo() {
+      if (!this.newTodo) {
+        return;
+      }
       this.todos.push(this.newTodo);
       this.newTodo = "";
     }
